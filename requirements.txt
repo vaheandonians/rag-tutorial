@@ -1,0 +1,24 @@
+# Python 3.13: GraphRAG (example 6) supports Python 3.11-3.13.
+#   python3.13 -m venv venv && source venv/bin/activate
+#   pip install -r requirements.txt
+langchain>=1.0
+langchain-core>=1.0
+langchain-text-splitters>=1.0
+langchain-chroma>=1.0
+langchain-ollama>=1.0   # LLM + embeddings via the local Ollama server
+sentence-transformers>=3.0   # cross-encoder reranker (example 3)
+transformers>=4.48     # ModernBERT support (example 4)
+torch
+pydantic>=2
+numpy
+scikit-learn>=1.4      # PCA + Gaussian mixture clustering (example 5)
+umap-learn>=0.5        # UMAP (notebooks 5a-5c)
+matplotlib>=3.8        # figures (notebooks 5a-5c and 6)
+scipy                  # Kamada-Kawai graph layout (example 6)
+graphrag==3.3.0        # Microsoft GraphRAG (example 6); brings pandas, networkx, lancedb, litellm, python-dotenv
+pyvis>=0.3             # interactive knowledge-graph view (example 6)
+jupyter                # to run the notebooks
+
+# Optional: hosted LLMs via RAG_LLM, e.g. RAG_LLM=openai:gpt-4o-mini
+langchain-openai       # (OPENAI_API_KEY)
+# langchain-anthropic    # (ANTHROPIC_API_KEY)

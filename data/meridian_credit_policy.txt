@@ -1,0 +1,30 @@
+Meridian Bank - Retail Credit Policy, Version 7.2 (Excerpt)
+(Fictional bank, created for teaching purposes.)
+
+1. Scope
+
+This policy applies to all unsecured personal loans and credit cards issued by Meridian Bank to private individuals. Mortgages and business loans are covered by separate policies. The policy is owned by the Chief Risk Officer and is reviewed every twelve months.
+
+2. Eligibility
+
+An applicant must be at least 18 years old and must have been resident in the country for at least two years. Applicants must provide proof of income for the last three months. Self-employed applicants must instead provide tax returns for the last two years.
+
+3. Affordability
+
+The debt-service-to-income ratio (DSTI) of an applicant may not exceed 40 percent after the new loan is included. For applicants with a monthly net income below EUR 2,000, the DSTI limit is reduced to 30 percent. Rent payments count as debt service for the purpose of this calculation.
+
+4. Loan Limits
+
+The maximum amount for an unsecured personal loan is EUR 50,000. The maximum term is 84 months. Credit card limits may not exceed three times the applicant's monthly net income, with an absolute cap of EUR 15,000.
+
+5. Credit Scoring
+
+Every application is scored with the internal Meridian Retail Score, which ranges from 0 to 1,000. Applications with a score below 550 are declined automatically. Applications with a score between 550 and 650 are referred to a credit officer for manual review. Applications with a score above 650 may be approved automatically if all other criteria are met.
+
+6. Overrides
+
+A credit officer may override an automatic decline only with written approval from a team lead. Overrides may not exceed 5 percent of all approved applications in any calendar quarter. Every override must be documented with a reason code in the loan origination system.
+
+7. Monitoring
+
+The bank reviews the performance of the retail portfolio monthly. If the 90-day delinquency rate exceeds 3 percent for two consecutive months, the Chief Risk Officer must present a remediation plan to the Risk Committee within 30 days.

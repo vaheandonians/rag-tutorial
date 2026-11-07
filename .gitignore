@@ -1,0 +1,5 @@
+venv/
+.env
+raptor_tree.json
+propositions_cache.json
+graphrag_workspace/
