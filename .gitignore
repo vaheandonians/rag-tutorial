@@ -2,4 +2,5 @@ venv/
 .env
 raptor_tree.json
 propositions_cache.json
+hirag_index.json
 graphrag_workspace/

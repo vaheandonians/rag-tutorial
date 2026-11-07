@@ -6,19 +6,22 @@ langchain-core>=1.0
 langchain-text-splitters>=1.0
 langchain-chroma>=1.0
 langchain-ollama>=1.0   # LLM + embeddings via the local Ollama server
+langchain-openai>=1.0   # LLM + embeddings via OpenAI (example 7; OPENAI_API_KEY in .env)
 sentence-transformers>=3.0   # cross-encoder reranker (example 3)
 transformers>=4.48     # ModernBERT support (example 4)
 torch
 pydantic>=2
 numpy
-scikit-learn>=1.4      # PCA + Gaussian mixture clustering (example 5)
-umap-learn>=0.5        # UMAP (notebooks 5a-5c)
-matplotlib>=3.8        # figures (notebooks 5a-5c and 6)
-scipy                  # Kamada-Kawai graph layout (example 6)
+scikit-learn>=1.4      # PCA + Gaussian mixture clustering (examples 5 and 7)
+umap-learn>=0.5        # UMAP (notebooks 5a-5c and example 7)
+matplotlib>=3.8        # figures (notebooks 5a-5c, 6 and 7)
+scipy                  # Kamada-Kawai graph layout (examples 6 and 7)
 graphrag==3.3.0        # Microsoft GraphRAG (example 6); brings pandas, networkx, lancedb, litellm, python-dotenv
+networkx               # knowledge graph (examples 6 and 7)
+graspologic-native     # hierarchical Leiden (example 7; GraphRAG uses it internally)
+python-dotenv          # OPENAI_API_KEY from .env (examples 6 and 7)
 pyvis>=0.3             # interactive knowledge-graph view (example 6)
 jupyter                # to run the notebooks
 
-# Optional: hosted LLMs via RAG_LLM, e.g. RAG_LLM=openai:gpt-4o-mini
-langchain-openai       # (OPENAI_API_KEY)
+# Optional: other hosted LLMs via RAG_LLM (openai:... works with langchain-openai above)
 # langchain-anthropic    # (ANTHROPIC_API_KEY)
